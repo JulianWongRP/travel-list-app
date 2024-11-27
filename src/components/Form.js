@@ -39,7 +39,7 @@ export default function Form({handleAddItems}) {
     return (
       <div>
       <form className="add-form" onSubmit={handleSubmit}>
-        <h3>What do you need to pack?</h3>
+        <h3>What do you need to pack? 💼</h3>
         <select name="num" id="num" value={quantity} onChange={handleDropdown}>
           <option value="1">1</option>
           <option value="2">2</option>
