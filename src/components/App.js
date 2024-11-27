@@ -43,6 +43,7 @@ function App() {
       <Logo />
       <Form  handleAddItems={handleAddItems}/>
       <PackingList  Items={items} handleDeleteItem={handleDeleteItem} handleUpdateItem={handleUpdateItem}/>
+      <button onClick={handleSortName}>Sort by Name</button>
       <Stats  Items={items} handleClearAll={handleClearAll}/>
     </div>
   );
