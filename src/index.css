@@ -125,12 +125,22 @@ input[type="checkbox"] {
 }
 
 .stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #76c7ad;
-  text-align: center;
   font-weight: 700;
-  padding: 3.2rem 0;
+  padding: 3.2rem;
+  gap: 1rem;
 }
 
 .packed {
   text-decoration: line-through;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
 }
